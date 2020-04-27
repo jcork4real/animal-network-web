@@ -140,30 +140,46 @@ nav {
   overflow-y: hidden;
   padding-top: 20px;
 }
+nav .header-nav-wrapper {
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 nav .header-nav-wrapper img {
   height: 160px;
   width: 160px;
 }
 nav .header-nav-wrapper a {
   color: white;
-  font-size: 15px;
+  font-size: 13px;
   font-family: 'Bad Script', cursive;
   font-weight: 400;
   text-decoration: none;
-  letter-spacing: 2.5px;
+  letter-spacing: 3px;
 }
 nav .main-nav-wrapper {
   text-transform: uppercase;
   line-height: 1.4;
-  background-color: #666;
+  background-color: #1d1b1b;
+  height: 100%;
 }
 nav .main-nav-wrapper .time {
-  color: black;
+  color: #4e4b4b;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  line-height: 0.7;
+  font-weight: 550;
 }
 nav .main-nav-wrapper li {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 40px;
+}
+nav .main-nav-wrapper li:first-child {
+  background-color: white;
+  height: 10px;
+  border: 1px solid black;
+  padding: 25px;
 }
 nav .main-nav-wrapper a {
   font-family: brandon_grotesquebold, "Helvetica Neue", Helvetica, Arial, sans-serif;
