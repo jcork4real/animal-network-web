@@ -13,10 +13,12 @@
 // </nav>
 
 nav{
+    display: flex;
+    flex-direction: column;
     font-weight: 400;
     // border: dotted white;
     height: 100%;
-    width: 135px;
+    width: 160px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -24,27 +26,30 @@ nav{
     background-color: @nav-background-color;
     overflow-y: hidden;
     padding-top: 20px;
+    
 
 
     .header-nav-wrapper{
 
 
        
-        border: 1px dotted white;
-
         img{
-            height: 200px;
+            height: 160px;
+            width: 160px;
             
         }
+
        
 
         a{
+            
             color: white;
-            padding: 10px;
-            font-size: 13px;
+            font-size: 15px;
             font-family: 'Bad Script', cursive;
-            font-weight: 560;
+            font-weight: 400;
             text-decoration: none;
+            letter-spacing: 2.5px;
+
         }
         
     }
@@ -54,6 +59,7 @@ nav{
     text-transform: uppercase;
     line-height: 1.4;
     background-color: #666;
+   
  
 
     .time{
@@ -70,14 +76,13 @@ nav{
     }
 
     a{
-        
-
         font-family: brandon_grotesquebold,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font: 16px/1.625em radley,Helvetica,Helvetica Neue,Arial;
         font-size: 12px;
         text-decoration: none;
         color:#d2d2d2;
         font-weight: 400;
+        letter-spacing: 1.5px;
        
     }
     

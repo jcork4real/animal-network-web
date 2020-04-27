@@ -127,9 +127,11 @@ table {
   border-spacing: 0;
 }
 nav {
+  display: flex;
+  flex-direction: column;
   font-weight: 400;
   height: 100%;
-  width: 135px;
+  width: 160px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -138,19 +140,17 @@ nav {
   overflow-y: hidden;
   padding-top: 20px;
 }
-nav .header-nav-wrapper {
-  border: 1px dotted white;
-}
 nav .header-nav-wrapper img {
-  height: 200px;
+  height: 160px;
+  width: 160px;
 }
 nav .header-nav-wrapper a {
   color: white;
-  padding: 10px;
-  font-size: 13px;
+  font-size: 15px;
   font-family: 'Bad Script', cursive;
-  font-weight: 560;
+  font-weight: 400;
   text-decoration: none;
+  letter-spacing: 2.5px;
 }
 nav .main-nav-wrapper {
   text-transform: uppercase;
@@ -172,4 +172,5 @@ nav .main-nav-wrapper a {
   text-decoration: none;
   color: #d2d2d2;
   font-weight: 400;
+  letter-spacing: 1.5px;
 }
