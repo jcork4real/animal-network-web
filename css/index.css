@@ -138,10 +138,27 @@ nav {
   overflow-y: hidden;
   padding-top: 20px;
 }
+nav .header-nav-wrapper {
+  border: 1px dotted white;
+}
+nav .header-nav-wrapper img {
+  height: 200px;
+}
+nav .header-nav-wrapper a {
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+  font-family: 'Bad Script', cursive;
+  font-weight: 560;
+  text-decoration: none;
+}
 nav .main-nav-wrapper {
   text-transform: uppercase;
   line-height: 1.4;
   background-color: #666;
+}
+nav .main-nav-wrapper .time {
+  color: black;
 }
 nav .main-nav-wrapper li {
   display: flex;
@@ -154,4 +171,5 @@ nav .main-nav-wrapper a {
   font-size: 12px;
   text-decoration: none;
   color: #d2d2d2;
+  font-weight: 400;
 }
