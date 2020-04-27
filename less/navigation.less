@@ -13,12 +13,39 @@
 // </nav>
 
 nav{
-    border: @border;
+    font-weight: 400;
+    // border: dotted white;
     height: 100%;
-    width: 140px;
+    width: 135px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: @nav-background-color;
+    overflow-y: hidden;
+    padding-top: 20px;
+   
+
+.main-nav-wrapper{
+    text-transform: uppercase;
+    line-height: 1.4;
+    background-color: #666;
+   
+    
+    li{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    a{
+        font-family: brandon_grotesquebold,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font: 16px/1.625em radley,Helvetica,Helvetica Neue,Arial;
+        font-size: 12px;
+        text-decoration: none;
+        color:#d2d2d2;
+    }
+    
+} //end nav wrapper
+   
 }
