@@ -29,7 +29,8 @@
         letter-spacing: -.5px;
         text-decoration: none;
         font-weight: 550;
-
+        border: solid black;
+        line-height: 2.7;
     }
 
 
@@ -71,11 +72,40 @@
         height: 100%;
         
     .child-container-one{
-        // border: dotted black;
+        display:flex;
+        // border: dotted white;
         height: 50%;
         background-image: url("../images/container-1-child.jpg");
         background-size: cover;
         background-position: center;
+
+        .heading-wrapper-one{
+            display:flex;
+            flex-direction: column;
+        
+            // border: solid white;
+            // width: 90%;
+            margin: 0 auto;
+            padding-top: 100px;
+
+            img{
+               display:flex;
+                border: solid white;
+                // height: 600px;
+                margin: 0 auto;
+                background: black;
+                
+            }
+            .heading{
+              margin: 0 auto;
+            }
+
+            .sub-heading{
+                display:flex;
+                margin:0 auto;
+            }
+        }
+
     }
 
     .container-two-three-wrapper{
@@ -84,23 +114,41 @@
   
     .child-container-two{
         // border: dotted black;
+        display:flex;
+        margin: 0 auto;
         width: 50%;
         height: 100%;
-        background-image: url("../images/adult-tricolor-beagle-1031466.jpg");
-        background-size: 70rem;
+        background-image: url("../images/beagle.jpg");
+        background-size: 75rem;
         background-position: top;
         background-repeat: no-repeat;  
+
+        .cta{
+            margin-top: 300px;
+            
+        }
+       
     }
 
     .child-container-three{
+        border: 5px solid black;
+        display: flex;
+        
         // border: dotted black;
         width: 50%;
         height: 100%;
-        background-image: url("../images/container-3-child.jpg");
+        // background-image: url("../images/diAnna.jpg");
         background-size: 70rem;
-        background-position: top;
+        // background-position: top;
         background-repeat: no-repeat;
+
+        .heading-wrapper-one{
+           
+            display:flex;
+            margin:0 auto;
+            padding-top: 120px;
+        }
     }
     }// two three wrapper end
-}
+  }
 }

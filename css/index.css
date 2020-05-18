@@ -218,6 +218,8 @@ nav .main-nav-wrapper a {
   letter-spacing: -0.5px;
   text-decoration: none;
   font-weight: 550;
+  border: solid black;
+  line-height: 2.7;
 }
 .main-container-wrapper .container-1 {
   width: 39%;
@@ -247,28 +249,58 @@ nav .main-nav-wrapper a {
   height: 100%;
 }
 .main-container-wrapper .container-2-wrapper .child-container-one {
+  display: flex;
   height: 50%;
   background-image: url("../images/container-1-child.jpg");
   background-size: cover;
   background-position: center;
+}
+.main-container-wrapper .container-2-wrapper .child-container-one .heading-wrapper-one {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.main-container-wrapper .container-2-wrapper .child-container-one .heading-wrapper-one img {
+  display: flex;
+  border: solid white;
+  margin: 0 auto;
+  background: black;
+}
+.main-container-wrapper .container-2-wrapper .child-container-one .heading-wrapper-one .heading {
+  margin: 0 auto;
+}
+.main-container-wrapper .container-2-wrapper .child-container-one .heading-wrapper-one .sub-heading {
+  display: flex;
+  margin: 0 auto;
 }
 .main-container-wrapper .container-2-wrapper .container-two-three-wrapper {
   display: flex;
   height: 100%;
 }
 .main-container-wrapper .container-2-wrapper .container-two-three-wrapper .child-container-two {
+  display: flex;
+  margin: 0 auto;
   width: 50%;
   height: 100%;
-  background-image: url("../images/adult-tricolor-beagle-1031466.jpg");
-  background-size: 70rem;
+  background-image: url("../images/beagle.jpg");
+  background-size: 75rem;
   background-position: top;
   background-repeat: no-repeat;
 }
+.main-container-wrapper .container-2-wrapper .container-two-three-wrapper .child-container-two .cta {
+  margin-top: 300px;
+}
 .main-container-wrapper .container-2-wrapper .container-two-three-wrapper .child-container-three {
+  border: 5px solid black;
+  display: flex;
   width: 50%;
   height: 100%;
-  background-image: url("../images/container-3-child.jpg");
   background-size: 70rem;
-  background-position: top;
   background-repeat: no-repeat;
+}
+.main-container-wrapper .container-2-wrapper .container-two-three-wrapper .child-container-three .heading-wrapper-one {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 120px;
 }
